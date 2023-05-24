@@ -32,9 +32,9 @@ dataset.mean()
 
 dataset.prod() # ko'paytmani chiqarish
 
-dataset[['Aholisi']].idxmin() #Eng kichik elementlar id sini chiqarib beradi
+dataset[['price']].idxmin() #Eng kichik elementlar id sini chiqarib beradi
 
-dataset['Aholisi'].argmax() # Aholisi eng kichik elementlarni tartib raqamini chiqaradi
+dataset['price'].argmax() # Aholisi eng kichik elementlarni tartib raqamini chiqaradi
 
 dataset.corr()
 
